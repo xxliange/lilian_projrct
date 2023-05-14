@@ -1,0 +1,27 @@
+/**index.wxss**/
+.flower {
+  &-container {
+    width: 100%;
+    position: relative;
+  }
+
+  &-cloud {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    &_container{
+      left: 0%;
+    }
+    image {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      &:nth-child(1){
+        transform: rotateY(180deg);
+      }
+      &:nth-child(3){
+        transform: rotateY(-180deg);
+      }
+    }
+  }
+}

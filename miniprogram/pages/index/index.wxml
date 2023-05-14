@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view style="width: 100%;min-height: 100vh;display: flex;align-items: center;position: relative;">
+  <image src="./../../img/no-move.png" mode="widthFix" style="width: 100%;" />
+  <!-- 流动云部分 -->
+  <view class="flower-cloud">
+    <view class="flower-container flower-cloud_container">
+      <image style="left: -100%" src="./../../img/cloud.png" mode="widthFix" />
+      <image src="./../../img/cloud.png" mode="widthFix" />
+      <image style="left: 100%" src="./../../img/cloud.png" mode="widthFix" />
+    </view>
+  </view>
+</view>
